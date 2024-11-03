@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History of Islam</title>
+    <link rel="stylesheet" href="kolok.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">Islamic History</h1>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Content</a>
+                    <div class="dropdown-content">
+                        <a href="#origins">Origins of Islam</a>
+                        <a href="#golden-age">The Golden Age</a>
+                        <a href="#empires">Islamic Empires</a>
+                        <a href="#culture">Islamic Culture</a>
+                    </div>
+                </li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <h2 class="section-title">Welcome to Islamic History</h2>
+            <div class="content-card">
+                <p>Welcome to our comprehensive guide to Islamic history. Here you'll find information about the origins of Islam, its golden age, major empires, and rich cultural heritage.</p>
+                <p>Navigate through our content using the menu above to explore different aspects of Islamic history and civilization.</p>
+            </div>
+        </section>
+
+        <!-- Content Sections -->
+        <section id="origins" class="section">
+            <h2 class="section-title">Origins of Islam</h2>
+            <div class="content-card">
+                <p>Islam emerged in the 7th century CE in the Arabian city of Mecca. The religion was revealed to Prophet Muhammad (peace be upon him) through the angel Gabriel. The word "Islam" means submission to Allah (God), and its followers are called Muslims.</p>
+                <p>The Islamic calendar begins with the Hijra, Prophet Muhammad's migration from Mecca to Medina in 622 CE. This marked the establishment of the first Islamic state.</p>
+            </div>
+        </section>
+
+        <section id="golden-age" class="section">
+            <h2 class="section-title">The Golden Age</h2>
+            <div class="content-card">
+                <p>The Islamic Golden Age (8th-14th centuries) was a period of remarkable scientific, cultural, and economic flourishing. Muslim scholars made significant contributions to mathematics, astronomy, medicine, and philosophy.</p>
+                <p>Centers of learning like the House of Wisdom in Baghdad became crucial for preserving and advancing human knowledge. Many Greek philosophical and scientific texts were translated into Arabic during this period.</p>
+            </div>
+        </section>
+
+        <section id="empires" class="section">
+            <h2 class="section-title">Islamic Empires</h2>
+            <div class="content-card">
+                <p>Several major Islamic empires emerged throughout history:</p>
+                <ul class="empire-list">
+                    <li>The Umayyad Caliphate (661-750)</li>
+                    <li>The Abbasid Caliphate (750-1258)</li>
+                    <li>The Ottoman Empire (1299-1923)</li>
+                    <li>The Safavid Empire (1501-1736)</li>
+                    <li>The Mughal Empire (1526-1857)</li>
+                </ul>
+                <p>These empires contributed significantly to world history, art, architecture, and culture.</p>
+            </div>
+        </section>
+
+        <section id="culture" class="section">
+            <h2 class="section-title">Islamic Culture</h2>
+            <div class="content-card">
+                <p>Islamic culture has enriched the world through various forms of art and architecture:</p>
+                <ul class="culture-list">
+                    <li>Calligraphy - The artistic practice of handwriting and lettering</li>
+                    <li>Architecture - Famous for intricate geometric patterns and domes</li>
+                    <li>Literature - Rich tradition of poetry and prose</li>
+                    <li>Music - Development of various musical instruments and styles</li>
+                </ul>
+                <p>Islamic civilization has left an indelible mark on world history and continues to influence global culture today.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="content-card">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Islamic History Website</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navLinks = document.querySelectorAll('.nav-link, .dropdown-content a');
+            const sections = document.querySelectorAll('.section');
+            
+            // Smooth scroll and highlight function
+            const scrollToSection = (e) => {
+                if (e.target.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    const targetId = e.target.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    
+                    sections.forEach(section => section.classList.remove('active'));
+                    navLinks.forEach(navLink => navLink.classList.remove('active'));
+                    
+                    e.target.classList.add('active');
+                    targetSection.classList.add('active');
+                    
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            };
+
+            // Add click event listeners
+            navLinks.forEach(link => {
+                link.addEventListener('click', scrollToSection);
+            });
+
+            // Highlight section while scrolling
+            window.addEventListener('scroll', () => {
+                let current = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
