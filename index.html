@@ -1,36 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNJ Belajar Agama</title>
     <link rel="stylesheet" href="style.css">
-    <title>Kumpulan Materi Agama</title>
 </head>
+
 <body>
-    <nav>
-        <div>
-            <img src="#" alt="Logo">
-        </div>
-        <div>
-            <a href="#">Beranda</a>
-            <a href="#">Materi</a>
-            <a href="#">Tentang Kami</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">Islamic History</h1>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Content</a>
+                    <div class="dropdown-content">
+                        <a href="#origins">Origins of Islam</a>
+                        <a href="#golden-age">Golden Age</a>
+                        <a href="#empires">Empires</a>
+                        <a href="#culture">Culture</a>
+                    </div>
+                </li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
         </div>
     </nav>
-    <main>
-        <div>
-            <h1>Tagline</h1>
-            <h2>Deskripsi aplikasi</h2>
-        </div>
-        <button>CTA</button>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <h2 class="section-title">Selamat datang di Islamic History</h2>
+            <div class="content-card">
+                <p>Website ini didedikasikan untuk mahasiswa yang ingin mengembangkan kemampuan maupun mempelajari lebih
+                    dalam tentang agama Islam.</p><br>
+                <p>Dalam website ini, terdapat materi berikut dengan dalil pendukung serta contoh dan penerapannya dalam
+                    kehidupan sehari-hari. Ada baiknya untuk menyebarkan ilmu yang bermanfaat supaya lebih banyak lagi
+                    yang mempelajari ilmu agama Islam.</p>
+            </div>
+        </section>
+        <hr>
+
+        <!-- Content Sections -->
+        <section id="origins" class="section">
+            <h2 class="section-title">#1 Islam sebagai filsafat</h2>
+            <div class="content-card">
+                <p>Isi dalam pembahasan:</p>
+                <ul class="culture-list">
+                    <li>Poin 1</li>
+                    <li>Poin 2</li>
+                    <li>Poin 3</li>
+                    <li>Poin 4</li>
+                </ul>
+                <p>Deskripsi lebih lanjut</p>
+                <a href="Materials/Filsafat.html">
+                    <button>Lihat Materi</button>
+                </a>
+            </div>
+        </section>
+
+        <section id="golden-age" class="section">
+            <h2 class="section-title">#2 Politik dalam Islam</h2>
+            <div class="content-card">
+                <p>Isi dalam pembahasan:</p>
+                <ul class="culture-list">
+                    <li>Poin 1</li>
+                    <li>Poin 2</li>
+                    <li>Poin 3</li>
+                    <li>Poin 4</li>
+                </ul>
+                <p>Deskripsi lebih lanjut</p>
+                <a href="Materials/Politik.html">
+                    <button>Lihat Materi</button>
+                </a>
+            </div>
+        </section>
+
+        <section id="empires" class="section">
+            <h2 class="section-title">#3 Ekonomi dalam Islam</h2>
+            <div class="content-card">
+                <p>Heading:</p>
+                <ul class="empire-list">
+                    <li>The Umayyad Caliphate (661-750)</li>
+                    <li>The Abbasid Caliphate (750-1258)</li>
+                    <li>The Ottoman Empire (1299-1923)</li>
+                    <li>The Safavid Empire (1501-1736)</li>
+                    <li>The Mughal Empire (1526-1857)</li>
+                </ul>
+                <p>Deskripsi lebih lanjut.</p>
+                <a href="Materials/Ekonomi.html">
+                    <button>Lihat Materi</button>
+                </a>
+            </div>
+        </section>
+
+        <section id="culture" class="section">
+            <h2 class="section-title">#4 Hakikat manusia dan kedudukannya di bumi</h2>
+            <div class="content-card">
+                <p>Isi dalam pembahasan:</p>
+                <ul class="culture-list">
+                    <li>Poin 1</li>
+                    <li>Poin 2</li>
+                    <li>Poin 3</li>
+                    <li>Poin 4</li>
+                </ul>
+                <p>Deskripsi lebih lanjut</p>
+                <button>Lihat Materi</button>
+            </div>
+        </section>
+
     </main>
-    <footer>
-        <div>
-            <img src="" alt="Logo/nama aplikasi">
-        </div>
-        <div>
-            <p>Kontak</p>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2024 Islamic History Website</p>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navLinks = document.querySelectorAll('.nav-link, .dropdown-content a');
+            const sections = document.querySelectorAll('.section');
+
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    if (e.target.getAttribute('href') !== '#') {
+                        e.preventDefault();
+                        const targetId = e.target.getAttribute('href');
+                        const targetSection = document.querySelector(targetId);
+
+                        sections.forEach(section => section.classList.remove('active'));
+                        navLinks.forEach(navLink => navLink.classList.remove('active'));
+
+                        e.target.classList.add('active');
+                        targetSection.classList.add('active');
+
+                        targetSection.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            window.addEventListener('scroll', () => {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= sectionTop - sectionHeight / 3) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
 </body>
+
 </html>
