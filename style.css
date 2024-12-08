@@ -20,6 +20,8 @@ body {
     padding: 1rem;
     position: fixed;
     width: 100%;
+    left: 0; /* Tambahkan ini */
+    right: 0; /* Tambahkan ini */
     top: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
