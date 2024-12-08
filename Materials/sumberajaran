@@ -2,18 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1. 0">
     <link rel="stylesheet" href="../style.css">
     <title>Materi | Sumber-Sumber Ajaran Islam</title>
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <h1 class="nav-title">Islamic History</h1>
+            <h1 class="nav-title">Sumber-Sumber Ajaran Islam</h1>
             <ul class="nav-links">
-                <li><a href="javascript:history.back()" class="nav-link active">Kembali</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Content</a>
+                    <div class="dropdown-content">
+                        <a href="#Al-Qur'an">Al-Qur'an</a>
+                        <a href="#Sunnah">Sunnah</a>
+                        <a href="#Ijtihad">Ijtihad</a>
+                    </div>
+                </li>
+                <li><a href="javascript:history. back()" class="nav-link active">Kembali</a></li>
             </ul>
         </div>
     </nav>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Home Section -->
+        <section id="Al-Qur'an" class="section active">
+            <h2 class="section-title">Al-Qur'an</h2>
+            <div class="content-card">
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Pengertian Al-Qur'an</h2>
+                    Pengertian Al-Qur'an Secara bahasa, Al-Qur'an merupakan bahasa Arab artinya "bacaan" atau "sesuatu yang dibaca berulang-ulang". Term Al-Qur'an adalah bentuk kata benda dari kata kerja qara'a yang memiliki arti membaca. 
+                    Qur'an itu artinya “bacaan”, asal kata “qara‟a”. Kata Al-Qur'an itu berbentuk masdar dengan arti isim maf‟ul yaitu maqru‟ (dibaca) Konsep pemakaian kata ini dapat juga dijumpai
+                    ada salah satu surat Al-Qur'an sendiri yakni pada ayat 17 dan 18 Surah Al-Qiyamah yang menjelaskan bahwa Allah telah mengumpulkan Al-Qur'an di dada Muhammad dan menjadikan Nabi pandai membacanya. 
+                    Secara terminologi, Al-Qur'an diartikan sebagai kalam Allah diturunkan pada Muhammad SAW, dari surat Al-Fatihah dan berakhir dengan An-Nas. bahwa Al-Qur'an ialah kalam Allah yang diterima Nabi Muhammad,
+                    ditulis di mushaf dan diriwayatkan secara mutawatir serta membacanya merupakan ibadah. Berdasarkan penjelasan definisi di atas, dapat sebutkan bahwa hanya kalam Allah SWT. yang diturunkan kepada Nabi Muhammad SAW. 
+                    saja yang disebut Al-Qur'an. kalam Allah SWT. yang diturunkan kepada Rasul lainnya bukanlah Al-Qur'an, tetapi ia memiliki nama tersendiri diantaranya kitab Taurat yang diturunkan kepada Nabi Musa AS. atau Kitab Injil yang diturunkan kepada Nabi Isa AS. 
+                    </p><br>
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Hakikat Al-Qur'an</h2> 
+                    Al-Qur'an dijadikan sumber hukum Islam mengindikasikan bahwa agama Islam menghendaki agar sifat-sifat yang termaktub dalam ajaran dan ketentuan yang mengatur perilaku manusia dalam Al-Qur'an diterapkan dalam waktu dan kondisi yang tepat. 
+                    Misalnya dikehendaki keutamaan sifat pemaaf, tetapi juga diwaktu tertentu dikehendaki pula ketentuan hukum dilaksanakan dengan tegas. Sifat pemberi maaf, tidak menggampangkan tindak kejahatan mudah dilakukan tetapi menghendaki manusia agar 
+                    bersifat jujur dan berani menerangkan yang benar. Al-Qur'an menghendaki manusia agar selalu berbuat baik, sekalipun terhadap orang yang pernah berbuat jahat kepadanya. Al-Qur'an mengajarkan manusia untuk tetap suci, tetapi tidak dikebiri. 
+                    Manusia harus berbakti kepada Allah ta‟ala,tetapi tidaklah menjadi rahib atau pertapa. Manuasia harus berendah hati, tetapi jangan melupakan harga diri. Manusia dapat menggunakan hal-haknya, tanpa mengganggu hak-hak orang lain. 
+                    anusia diwajibkan mendakwahkan agama dengan jalan hikmah dan kebijaksanaan. 
+                    </p>
+            </div>
+        </section>
+        <hr>
+
+        <section id="Sunnah" class="section active">
+            <h2 class="section-title">Sunnah</h2>
+            <div class="content-card">
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Pengertian Sunnah</h2>
+                    Sunnah menurut bahasa berarti cara, jalan, kebiasaan atau tradisi yang mencakup baik dan buruk. 
+                    Sedangkan menurut istilah sunnah disamakan dengan hadits, yaitu informasi atau kabar yang disandarkan kepada Rasulullah Saw berupa ucapan, perbuatan atau keizinan (ketetapan).
+                    Menurut ahli ushl fiqh Sunnah adalah segala yang diriwayatkan dari Nabi Muhammad SAW baik berupa perkataan, perbuatan dan ketetapan yang berkaitan dengan hukum 
+                    </p><br>
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Berdasarkan Definisinya Sunnah dapat dibagi menjadi 3 kelompok</h2> 
+                    <h3 style="color:#084026 ;">Sunnah Qauliyah</h3>
+                    Yaitu sunnah yang merupakan perkataan Rasulullah seperti Hadits
+                    <h3 style="color:#084026 ;">Sunnah Fi'liyah</h3>
+                    Yaitu sunnah yang merupakan perbuatan Rasulullah
+                    <h3 style="color:#084026 ;">Sunnah Taqriyah</h3>
+                    Yaitu sunnah yang merupakan perbuatan sahabat yang didiamkan oleh Rasulullah
+                    </p>
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Kedudukan Sunnah dalam Islam</h2> 
+                    Sunnah Nabi Muhammad SAW memiliki kedudukan kedua setelah Al-Qur’an, Penempatan ini disebabkan karena perbedaan sifat di antara keduanya. 
+                    Dilihat dari segi periwayatannya, al-Qur'an kualitas periwayatannya bersifat pasti. Sementara sunnah kualitas periwayatannya bersifat relatif
+                    </p>
+            </div>
+        </section>
+
+        <section id="Ijtihad" class="section active">
+            <h2 class="section-title">Ijtihad</h2>
+            <div class="content-card">
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Pengertian Ijtihad</h2>
+                    Ijtihad secara etimologi berasal dari bahasa arab jahdun yang artinya bersungguh-sungguh sedangkan menurut istilah adalah mengerahkan segala pikiran dengan
+                     sungguh-sungguh untuk menetapkan suatu hukum syara’ dengan berdasar pada Al-Qur’an dan Sunnah.
+                    </p><br>
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Metode Ijtihad</h2> 
+                    <ul>Qiyas<br> Qiyas artinya menetapkan sesuatu yang belum ada hukumnya dengan yang sudah ada contohnya minum alkohol disamakan dengan minum khamr </ul>
+                    <ul>Ijma<br> Ijma menurut bahasa adalah sependapat atau setuju. Sedangkan menurut istilah ijma adalah kesepakatan semua ahli ijtihad umamat setelah wafatnya Nabi pada suatu masa tentang suatu hukum. Contohnya diadakan Adzan dan Iqomah 2 kali pada sholat Jumat                    </ul>
+                    <ul>Istihsa: <br>Istihsan secara bahasa adalah menganggap sesuatu itu baik. Secara istilah Istihsan adalah mengikuti sesuatu yang lebih baik atau mencari yang lebih baik untuk diikuti.Dokter pria diperbolehkan melihat aurat wanita dalam proses pengobatan.</ul>
+                    <ul>Mashlahah Mursahah: <br>Maslahah mursalah adalah sesuatu yang baik menurut akal. Namun dengan pertimbangan dapat mewujudkan kebaikan dan menghindarkan keburukan bagi manusia.
+                    </ul>
+                 </p>
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Kedudukan Ijtihad dalam Islam</h2> 
+                    Kedudukan Ijtihad dalam Islam sebagai sumber hukum ketiga setelah Al-Qur’an dan Sunnah. Ijtihad dilakukan apabila terdapat persoalan yang tidak ada di AL-Qur’an dan Sunnah/Hadis, 
+                    namun yang dihasilkan dari Ijtihad tidak boleh bertentangan dengan Al-Qur’an dan Sunnah
+                 </p>
+            </div>
+        </section>
+
 </body>
-</html>
+</html> 
