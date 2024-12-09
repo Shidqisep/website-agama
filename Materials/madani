@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1. 0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Materi | Sumber-Sumber Ajaran Islam</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">Masyaraat Madani dan Moderasi Beragama dalam islam</h1>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Content</a>
+                    <div class="dropdown-content">
+                        <a href="#Al-Qur'an">Masyarakat</a>
+                        <a href="#Sunnah">Masyarakat Madani</a>
+                        <a href="#Ijtihad">Moderasi Beragama</a>
+                        <a href="#Sumber">Sumber</a>
+                    </div>
+                </li>
+                <li><a href="javascript:history. back()" class="nav-link active">Kembali</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Home Section -->
+        <section id="Al-Qur'an" class="section active">
+            <h2 class="section-title">Masyarakat </h2>
+            <div class="content-card">
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Pengertian Masyarakat</h2>
+                    Secara Umum masyarakat adalah sekumpulan manusia yang hidup bersama dalam kehidupan kolektif, terjalin oleh sistem, tradisi, konvensi, dan hukum yang sama.Mereka dipersatukan oleh kebutuhan, keyakinan, pikiran, dan ambisi tertentu.
+                    Dalam Islam masyarakat dibentuk berdasarkan aqidah dan syariat Islam, menjadikan Al-Qur'an dan Hadis sebagai pedoman.Ciri utamanya adalah persaudaraan yang solid, cinta kasih di antara warganya, serta menghormati keberagaman ras, suku, dan agama.
+                     
+                    </p><br>
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Masyarakat Madani</h2> 
+                    Al-Qur'an dijadikan sumber hukum Islam mengindikasikan bahwa agama Islam menghendaki agar sifat-sifat yang termaktub dalam ajaran dan ketentuan yang mengatur perilaku manusia dalam Al-Qur'an diterapkan dalam waktu dan kondisi yang tepat. 
+                    Misalnya dikehendaki keutamaan sifat pemaaf, tetapi juga diwaktu tertentu dikehendaki pula ketentuan hukum dilaksanakan dengan tegas. Sifat pemberi maaf, tidak menggampangkan tindak kejahatan mudah dilakukan tetapi menghendaki manusia agar 
+                    bersifat jujur dan berani menerangkan yang benar. Al-Qur'an menghendaki manusia agar selalu berbuat baik, sekalipun terhadap orang yang pernah berbuat jahat kepadanya. Al-Qur'an mengajarkan manusia untuk tetap suci, tetapi tidak dikebiri. 
+                    Manusia harus berbakti kepada Allah ta‟ala,tetapi tidaklah menjadi rahib atau pertapa. Manuasia harus berendah hati, tetapi jangan melupakan harga diri. Manusia dapat menggunakan hal-haknya, tanpa mengganggu hak-hak orang lain. 
+                    anusia diwajibkan mendakwahkan agama dengan jalan hikmah dan kebijaksanaan. 
+                    </p>
+            </div>
+        </section>
+        <hr>
+
+        <section id="Sunnah" class="section active">
+            <h2 class="section-title">Masyarakat Madani</h2>
+            <div class="content-card">
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Pengertian</h2>
+                    Berasal dari kata Arab madani, berakar dari Madinah (kota di Hijaz, Arab Saudi).Masyarakat yang beradab, menjunjung nilai-nilai kemanusiaan, serta maju dalam ilmu 
+                    pengetahuan dan teknologi.</p><br>
+               
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Karakteristik</h2> 
+                    1.	Berketuhanan Yang Maha Esa: Allah adalah tempat berlindung dalam menghadapi masalah, sebagaimana disebutkan dalam QS Al-Ikhlas 112:1-2.<br>
+                    2.	Perdamaian: Pondasi kehidupan umat, masyarakat, dan negara, terutama antar sesama Muslim.<br>
+                    3.	Saling Tolong-menolong: Kunci utama kekuatan masyarakat. Kesulitan bersama dapat diatasi melalui kerja sama.<br>
+                    4.	Bermusyawarah: Semua persoalan dapat diselesaikan melalui musyawarah. Tanggung jawab bersama dihasilkan dari keputusan kolektif.<br>
+                    5.	Adil, Amanah, dan Jujur: Sifat-sifat yang terpuji di mata Allah, mendukung kedamaian tanpa merugikan pihak manapun.
+                    </p>
+
+                    <p class="p1">
+                        <h2 style="color:#084026 ;">Contoh Masyarakat Madani</h2>
+                        Nabi Muhammad SAW membangun masyarakat inklusif di Madinah selama 10 tahun.Piagam Madinah menjadi dasar hubungan antar kelompok, menjunjung prinsip keadilan dan saling menghormati</p>
+                        <h2 style="color:#084026 ;">Peran Umat Islam dalam Mewujudkan Masyarakat Madani</h2>
+                    1.Program Iqamatul Masjid: Masjid sebagai pusat kegiatan umat, termasuk kajian  keislaman, diskusi isu aktual, serta pengelolaan zakat dan infak.<br>
+                    2.Mewujudkan Ukhuwah Islamiyah: Membangun persaudaraan berlandaskan Islam, menghormati keberagaman akidah, dan menciptakan masyarakat pluralis serta toleran.<br>
+                    3.Penerapan Nilai Islam: Menjamin keadilan hukum, kebebasan beragama, dan kesejahteraan sosial berdasarkan ajaran Al-Qur'an dan Sunnah Rasul.                
+                    </p>
+                    </div>
+                </section>
+
+        <section id="Ijtihad" class="section active">
+            <h2 class="section-title">Moderasi Beragama</h2>
+            <div class="content-card">
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Pengertian</h2>
+                    Wasathiyah dalam Islam adalah sikap moderat atau seimbang dalam menjalankan ajaran agama, menjauhi ekstremisme (berlebihan atau terlalu longgar).QS Al-Baqarah 143 menyebutkan umat Islam sebagai “umat pertengahan.”
+                    </p><br>
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Moderasi Dalam Berbagai Aspek</h2> 
+                    1.	Aqidah: Menggunakan akal secara rasional untuk memahami kebesaran Allah.
+                        Contoh: Tidak mempertuhankan Nabi, seperti kasus Nabi Isa AS dalam keyakinan tertentu.<br>
+                    2.	Ibadah: Ibadah mencakup kegiatan vertikal (hubungan dengan Allah) dan horizontal (hubungan dengan sesama manusia), seperti bekerja, belajar, dan menjalankan amanah.QS Al-Jumuah 9-10: Ibadah harus seimbang dengan kegiatan duniawi.<br>
+                    3.	Akhlak: Memenuhi kebutuhan jasmani dan ruhani secara proporsional.<br>
+                    4.	Contoh: Bersedekah tidak boleh boros hingga mengorbankan kebutuhan primer.<br>
+                    5.	Pembentukan Syariat: Menentukan hukum syariat berdasarkan keseimbangan manfaat dan mudarat, kebersihan dan kotoran, halal dan haram.
+                 </p>
+            </div>
+        </section>
+        <section id="Sumber" class="section active">
+            <h2 class="section-title">Sumber</h2>
+            <div class="content-card">
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Artikel</h2>
+                    <ul>
+                        <li><a>Artikel</a></li>
+                    </ul>
+                    </p>
+                <p class="p1">
+                    <h2 style="color:#084026 ;">E-book</h2> 
+                    <ul>
+                        <li><a>E-book</a></li>
+                    </ul>
+                </p>
+                <p class="p1">
+                    <h2 style="color:#084026 ;">Video Youtube</h2>
+                    <ul>
+                        <li><a>Youtube</a></li>
+                    </ul>
+            </div>
+        </section>
+        
+</body>
+</html> 
